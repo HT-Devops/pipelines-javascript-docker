@@ -17,6 +17,10 @@ trigger:
       - /azure-pipelines.yml      # Path in dev branch to trigger dev stage
       - /azure-pipelines.yml     # Path in main branch to trigger main stage
 
+pr:
+  branches:
+    include:
+    - main
 
 resources:
 - repo: self

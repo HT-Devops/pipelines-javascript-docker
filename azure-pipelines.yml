@@ -14,8 +14,8 @@ trigger:
       - LICENSE
       - .github
     include:
-      - /azure-pipelines.yaml      # Path in dev branch to trigger dev stage
-      - /azure-pipelines.yaml     # Path in main branch to trigger main stage
+      - /azure-pipelines.yml      # Path in dev branch to trigger dev stage
+      - /azure-pipelines.yml     # Path in main branch to trigger main stage
 pr:
   branches:
     include:
